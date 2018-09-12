@@ -209,7 +209,7 @@ class SeleniumDriver():
             return False
 
     def waitForElement(self, locator, locatorType="id",
-                               timeout=10, pollFrequency=0.5):
+                               timeout=15, pollFrequency=0.5):
         element = None
         try:
             byType = self.getByType(locatorType)

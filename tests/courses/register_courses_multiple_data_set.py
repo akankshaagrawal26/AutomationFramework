@@ -17,7 +17,9 @@ class RegisterMultipleCoursesTests(unittest.TestCase):
     @unpack
     def test_invalidEnrollment(self, courseName, ccNum, ccExp, ccCVV):
         self.courses.enterCourseName(courseName)
-        self.courses.selectCourseToEnroll(courseName)
+        self.courses.clickOnSearchButton()
+        res = self.courses.selectCourseToEnroll(courseName)
+        self.ts.mark(res,"Search Course Verification")
         self.courses.enrollCourse(num=ccNum, exp=ccExp, cvv=ccCVV)
         result = self.courses.verifyEnrollFailed()
         self.ts.markFinal("test_invalidEnrollment", result,

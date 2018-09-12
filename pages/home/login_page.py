@@ -2,6 +2,7 @@ import utilities.custom_logger as cl
 from pages.home.navigation_page import NavigationPage
 import logging
 from base.basepage import BasePage
+import time
 
 class LoginPage(BasePage):
 
@@ -57,6 +58,7 @@ class LoginPage(BasePage):
         logoutLinkElement = self.waitForElement(locator="//div[@id='navbar']//a[@href='/sign_out']",
                           locatorType="xpath", pollFrequency=1)
         #self.elementClick(element=logoutLinkElement)
+        time.sleep(2)
         self.elementClick(locator="//div[@id='navbar']//a[@href='/sign_out']",
                           locatorType="xpath")
 

@@ -1,0 +1,4 @@
+[
+  "register_courses_csv_data.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_1___JavaScript_for_beginners____10____1220____10__",
+  "register_courses_csv_data.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_2___Learn_Python_3_from_scratch____20____1220____20__"
+]

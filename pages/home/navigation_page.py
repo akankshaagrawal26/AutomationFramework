@@ -18,6 +18,7 @@ class NavigationPage(BasePage):
 
 
     def navigateToAllCourses(self):
+
         self.elementClick(locator=self._all_courses, locatorType="link")
 
     def navigateToMyCourses(self):
@@ -28,7 +29,7 @@ class NavigationPage(BasePage):
 
     def navigateToUserSettings(self):
         userSettingsElement = self.waitForElement(locator=self._user_settings_icon,
-                                      locatorType="xpath", pollFrequency=1)
+                                      locatorType="xpath", pollFrequency=0.5)
         #self.elementClick(element=userSettingsElement)
         self.elementClick(locator=self._user_settings_icon,
                                       locatorType="xpath")
