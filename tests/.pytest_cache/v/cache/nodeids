@@ -1,0 +1,8 @@
+[
+  "test_suite_demo.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_1___",
+  "test_suite_demo.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_2___JavaScript_for_beginners____10____1220____10__",
+  "test_suite_demo.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_3___",
+  "test_suite_demo.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_4___Learn_Python_3_from_scratch____20____1220____20__",
+  "test_suite_demo.py::LoginTests::test_t1invalidLogin",
+  "test_suite_demo.py::LoginTests::test_t2validLogin"
+]

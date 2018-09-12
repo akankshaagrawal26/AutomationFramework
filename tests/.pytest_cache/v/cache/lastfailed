@@ -1,0 +1,8 @@
+{
+  "test_suite_demo.py::LoginTests::test_t1invalidLogin": true,
+  "test_suite_demo.py::LoginTests::test_t2validLogin": true,
+  "test_suite_demo.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_1___": true,
+  "test_suite_demo.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_2___JavaScript_for_beginners____10____1220____10__": true,
+  "test_suite_demo.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_3___": true,
+  "test_suite_demo.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_4___Learn_Python_3_from_scratch____20____1220____20__": true
+}
