@@ -4,6 +4,7 @@ import logging
 from base.basepage import BasePage
 import time
 
+
 class LoginPage(BasePage):
 
     log = cl.customLogger(logging.DEBUG)
